@@ -1,0 +1,54 @@
+<html>
+<head><title>SURVEY</title>
+<link rel="stylesheet" type="text/css" href="surv.css"/>
+</head>
+<body>
+   <form class="container" method="GET" action="project.php">
+      <div>
+      <p>Name<span class="star">*</span><p>
+      <input type="text" class="txt" name="name">
+      <p>e-mail<span class="star">*</span></p>
+      <input type="text" class="txt" name="mail">
+    </div>
+  <h1>Product Marketing Survey</h1> 
+     <div><p>We're really excited about our new product, and we'd like to know if you feel the same. Please take a few minutes to let us know what you think.</p></div>
+    
+    <div class="quest"><p>How do you feel about our recent product/feature?</p></div>
+    <input type="radio" name="feel" value="excellent">Excellent
+    <input type="radio" name="feel" value="very good">Very good
+    <input type="radio" name="feel" value="good">Good
+    <input type="radio" name="feel" value="very bad">Very bad
+    
+    <div class="quest"><p>How would you rate our product/feature?</p></div>
+    <input type="radio" name="rate" value="very high quality">Very high quality
+    <input type="radio" name="rate" value="fair quality">Fair quality
+    <input type="radio" name="rate" value="bad quality">Bad quality
+
+    <div class="quest"><p>Is this product/feature something you need? *</p></div>
+    <input type="radio" name="need" value="yes">Yes
+    <input type="radio" name="need" value="no">No 
+
+    <div class="quest"><p>How likely would you be to replace your current product /feature with our product/feature?</p></div>
+    <input type="radio" name="rp" value="very likely">Very likely
+    <input type="radio" name="rp" value="likely">Likely
+    <input type="radio" name="rp" value="neutral">Neutral
+    <input type="radio" name="rp" value="somewhat likely">Somewhat likely
+    <input type="radio" name="rp" value="not likely">Not likely
+    
+    
+    <div class="quest"><p>How would you rate the monetary value of the product/feature?</p></div>
+    <input type="radio" name="mont" value="expenive">Expensive
+    <input type="radio" name="mont" value="fair">Fair
+    <input type="radio" name="mont" value="cheap">Cheap
+    
+    <div class="quest"><p>How likely are you to recommend this product/feature on a scale of 1 to 10, 10 being most likely?<span class="star">*</span></p></div>
+     <input type="text" class="txt" name="scl">
+
+    <div class="quest"><p>What do you think needs improvement?<span class="star">*</span></p></div>
+
+<textarea  class="txta" name="impr"></textarea>
+    <div><input type="submit" class="btn" value="submit"></div>
+
+	</form>
+</body>
+</html>

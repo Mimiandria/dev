@@ -1,0 +1,49 @@
+body{
+	background-image: url('bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	/*background-color: red;
+	color: blue;*/
+}
+.container{
+	border: 1px solid #000000;
+	background-color: #000000;
+	color: #ffffff;
+	width: 600px;
+	margin:auto;
+	border-radius: 20px;
+	padding: 30px;
+}
+.star{
+	color: red;
+}
+.txt{
+	width: 50%;
+}
+.txta{
+	width: 100%;
+	font-family: sans-serif;
+}
+h1{
+	color: hsl(224, 23%, 55%);
+}
+.btn{
+ cursor: pointer;
+ color: white;
+ font-weight: 700;
+ font-size: 16px;
+ background-color: hsl(245, 75%, 52%);
+ margin: 20px auto;
+ border-style: none;
+ border-radius: 10px;
+  padding:13px 50px;
+}
+.btn:hover{
+	opacity: 0.8;
+}
+.quest{
+	font-size: 16px;
+
+	color: hsl(224, 23%, 55%);
+}
